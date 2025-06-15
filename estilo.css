@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Leckerli+One&family=Lilita+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+*{
+    font-family: jost;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(49, 49, 49);
+}
+li, a,button{
+    font-family: 18px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background:linear-gradient(90deg,rgb(113, 113, 141),rgb(25, 25, 83))
+}
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 50px;
+
+}
+.nav-vlinks li a:hover{
+    color: rgb(0, 0, 0);
+}
+button{
+    padding: 10px 2opx;
+    background-color: rgb(117, 76, 228);
+    border: none;
+    border-radius: 60px;
+    cursor:pointer
+}
+
+    @media(max-width:800px){
+        li, a, button{
+            font-size: 15px;
+        }
+
+    }
+
+
+
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+input{
+    border-color: violet;
+    
+}
