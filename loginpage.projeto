@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>login</title>
+</head>
+<body>
+    <Header>
+        <span class="logo">Dev</span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">serviços</a></li>
+                <li><a href="#">projetos</a></li>
+                <li><a href="#">sobre</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contato</button></a>
+
+    </Header>
+
+<div class="container">
+    <h1>cadastro</h1>
+        <form>
+                <div class="form-input">
+                <label for="username">usuário</label>
+                <input type="text" id="username">
+
+                <div class="form-input">
+                <label for="email">e-mail</label>
+                <input type="email" id="email">
+
+                <div class="form-input">
+                <label for="password">senha</label>
+                <input type="password" id="password">
+
+
+            </div>
+        </form>
+</div>
+
+
+</body>
+</html>
