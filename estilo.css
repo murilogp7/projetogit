@@ -59,23 +59,25 @@ button{
     }
 
 
-
-
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
 .container{
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 500px;
-}
-
-input{
-    border-color: violet;
+ background:whitesmoke;
+   margin-top:20px;
     
+
+}
+h1,.form-input{
+text-align: center;
+
+}
+h1{
+    color: white;
+    background:linear-gradient(90deg,rgb(113, 113, 141),rgb(25, 25, 83));
+   
+}
+.form-input{
+    margin-top:10px;
+
+}
+.container, h1, .form-input{
+
 }
