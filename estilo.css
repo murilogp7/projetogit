@@ -7,7 +7,7 @@
 
 
 body{
-    background-image: url(stacked-waves-haikei\ \(2\).png);
+    background-image: url(layered-waves-haikei\(2\).svg);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -62,11 +62,11 @@ button{
 
 
 .container{
- background:whitesmoke;
+ background:rgb(227, 233, 243);
  width: 25%;
  height: 30%;
- transform: translate(500px, 45px);
-
+transform: translate(500px,45px);
+border-radius: 15px;
  
 }
 h1,.form-input{
@@ -76,10 +76,17 @@ text-align: center;
 h1{
     color: white;
     background:linear-gradient(90deg,rgb(113, 113, 141),rgb(25, 25, 83));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
    
 }
 .form-input{
     margin-top:10px;
     padding: 15px;
-
+    border: 15px;
+    
+}
+input{
+    border-radius: 15PX;
+    border-color: rgb(113, 113, 141);
 }
