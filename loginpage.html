@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <script src="validação.js"></script>
     <title>login</title>
 </head>
 <body>
@@ -22,23 +23,27 @@
 
 <div class="container">
     <h1>cadastro</h1>
-        <form>
+        <form id="form">
                 <div class="form-input">
                 <label for="username">usuário</label>
+                <br>
                 <input type="text" id="username">
 
                 <div class="form-input">
                 <label for="email">e-mail</label>
+                <br>
                 <input type="email" id="email">
 
                 <div class="form-input">
                 <label for="password">senha</label>
+                <br>
                 <input type="password" id="password">
 
 
             </div>
         </form>
-</div>
+        <button type="submit">cadastrar</button>
+    </div>
 
 
 </body>
